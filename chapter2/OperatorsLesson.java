@@ -1,0 +1,30 @@
+package chapter2;
+
+public class OperatorsLesson {
+    public static void main(String[] args) {
+        
+        // shift operator
+        System.out.println(2<<2);
+        // 0 0 1 0
+        // 8 4 2 1
+
+        // 1 0 0 0
+
+    System.out.println(+3+ +6);
+    int a = 0;
+    System.out.println(a++); //0
+    System.out.println(a);  //1
+    System.out.println(++a); //2
+    System.out.println(a); //2
+    int p = 3;
+    System.out.println(++p+p++); // 8 
+    System.out.println(p); //5
+
+    p=+p++;
+    boolean isFalse = false;
+    System.out.println(!isFalse);
+
+    
+
+    }
+}
