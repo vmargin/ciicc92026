@@ -34,8 +34,8 @@ public class LoopsLesson {
         for(String color : colors);
             System.out.println( "Color: " + color);
 
-        ROW: for (int p = 1; p<=10; p++){
-        COL:    for (int l; l<=10; l++)
+        ROW: for (int p = 1; p<=10; p++){  //Optional Labels
+        COL:    for (int l; l<=10; l++)    //Optional Labels
                     System.out.println(p*l);
                 System.out.println();
 
