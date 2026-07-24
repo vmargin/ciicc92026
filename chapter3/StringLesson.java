@@ -23,6 +23,17 @@ public class StringLesson {
         String trimSample = "        \t \n \t Marc Yim \t \n";
         System.out.println(trimSample.trim());
 
+        StringBuilder sb = new StringBuilder("Start");
+        System.out.println(sb);
+        sb.append("+middle");
+        System.out.println(sb);
+        StringBuilder same = sb.append("+end");
+        System.out.println(same);
+
+
+
+
+
     }
     
 }
