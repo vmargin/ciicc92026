@@ -10,13 +10,6 @@ public class Task4 {
         input1.reverse();
         System.out.println("Reversed string: " + input1);
 
-        if (input1.toString().equals(input1.reverse().toString())) {
-            System.out.println("The input string is a palindrome.");
-        } else {
-            System.out.println("The input string is not a palindrome.");
-        }
-        
-
         while (true) {
             System.out.println("Enter a string (or 'quit' to exit): ");
             String scanner2 = scanner.nextLine();
