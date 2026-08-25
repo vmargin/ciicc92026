@@ -11,6 +11,7 @@ public class practice4 {
 
         while (input != 0 ) {
             if (input > largest) {
+            if (input > largest) {
                 largest = input;
             }
             input = scan.nextInt();

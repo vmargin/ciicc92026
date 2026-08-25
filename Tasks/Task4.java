@@ -1,4 +1,5 @@
 package Tasks;
+
 import java.util.*;
 
 public class Task4 {
@@ -24,7 +25,7 @@ public class Task4 {
                 System.out.println("The input string is not a palindrome.");
             }
         }
-
+        scanner.close();
     }
-    
+
 }

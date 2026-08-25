@@ -1,4 +1,5 @@
 package Tasks;
+
 import java.util.Scanner;
 
 public class Task5 {
@@ -10,7 +11,7 @@ public class Task5 {
         input1 = input.nextInt();
         input2 = input.nextInt();
         input3 = input.nextInt();
-        int[] numbers = {input1, input2, input3};
+        int[] numbers = { input1, input2, input3 };
 
         if (numbers[0] == numbers[1] && numbers[1] == numbers[2]) {
             System.out.println("All numbers are equal.");
@@ -23,5 +24,6 @@ public class Task5 {
             }
             System.out.println("The largest number is: " + largest);
         }
+        input.close();
     }
 }
