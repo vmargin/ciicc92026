@@ -1,60 +1,38 @@
-# Hi, I'm vmargin 👋
+# Java Coursework / CIICC 2026
 
-### Computer Engineering Graduate | Full-Stack Developer
+**Original chapter exercises, task sheets, and practice attempts from Java training.**
 
-Valkenburgh Margin | 09295768675 | Antipolo, Rizal | https://www.linkedin.com/in/vmargin/ | https://github.com/vmargin
+This repository records learning work associated with Java Programming NC III training at CIICC in 2026. It is a collection of individual examples rather than one deployable application. The exercises preserve learning attempts; they are not a production library or a claim of certification.
 
-I build **scalable web applications** with the **PERN stack** (PostgreSQL, Express, React, Node.js) and TypeScript. I focus on **multi-tenant systems**, **secure API design**, and **clean, maintainable code**.
+## Repository map
 
----
+| Folder | Contents |
+| --- | --- |
+| `chapter1/` | Primitives, references, constructors, initialization, and object examples. |
+| `chapter2/` | Operators, equality, branching, and loops. |
+| `chapter3/` | Arrays, ArrayList, strings, and date/time examples. |
+| `chapter4/` | Access, encapsulation, overloads, return values, varargs, and lambdas. |
+| `Tasks/` | Numbered task sheets and related vehicle examples. |
+| `TasksTest/` | Practice attempts; the folder name does not imply a JUnit test suite. |
+| `experiment/`, `otherFolder/` | Small experiments and package/access examples. |
 
-## 🛠 Tech Stack
+## Run an individual example
 
-| Layer      | Technologies |
-|-----------|--------------|
-| **Frontend** | React 19 (Vite), TypeScript, Tailwind CSS, Axios, TanStack Query |
-| **Backend**  | Node.js, Express 5, TypeScript, Prisma ORM|
-| **Database** | PostgreSQL (e.g. Supabase) |
-| **Auth**     | JWT, bcryptjs |
-| **Tools** | Postman, pgAdmin, Docker | 
+Use a JDK such as JDK 21, from the repository root. This example asks for an integer on standard input:
 
----
+```powershell
+javac -d out chapter2/LoopsLesson.java
+java -cp out chapter2.LoopsLesson
+```
 
-## 🚀 Featured Projects
+Compile the files required by the selected example together and use its declared package in the Java command. There is no Maven/Gradle project or repository-wide test command. Some files represent incomplete or exploratory work and are not expected to build as one application.
 
-### [Arctic — Aircon Service Manager](https://github.com/vmargin/aircon-service) | [Demo](https://aircon-service-frontend.vercel.app/)
+## Related projects
 
-A **multi-tenant** air conditioning service operations manager with **role-based branch scoping** and **audit logging**.
-
-- 🔐 **JWT auth** with bcrypt; typed `req.user` (userId, orgId, role, branchId)
-- 🏢 **Data isolation** by organization and branch (Admin vs Branch Leader)
-- 📋 **Bookings → Invoices → Payments** with business rules (e.g. no completion without invoice)
-- 👷 **Technician assignment** scoped to branch; soft-delete with audit trail
-- 🌐 **Public API** for branch list and booking submission (find/create customer by phone)
-- 📝 **AuditLog** for bookings, invoices, and technician actions
-- ✅ **Zod validation** on all inputs; CORS and security-conscious config
-
-**Tech:** TypeScript, React, Express, Prisma, PostgreSQL, TanStack Query, Tailwind
-
-### Multi-Tenant Asset Manager | [GitHub](https://github.com/vmargin/multi-tenant-asset-manager) | [Live Demo]( https://multi-tenant-asset-manager.vercel.app/)
-
-Production-ready asset management with full multi-tenant architecture, JWT auth, and CRUD with org isolation. Deployed on Railway + Vercel.
-
-**Tech:** React, Node.js, Express, Prisma, PostgreSQL, Supabase
-
-### Task Management System | [GitHub](https://github.com/vmargin/task-manager-api) | [Live Demo]( https://task-manager-client-ivory-kappa.vercel.app)
-
-Full-stack productivity tool with JWT auth, relational storage, and responsive React UI. Deployed on Vercel & Supabase.
-
-**Tech:** TypeScript, React, Node.js, PostgreSQL
+- [Java desktop banking](https://github.com/vmargin/banking-app): the separate Swing/JDBC simulator.
+- [CASH-G Web](https://github.com/vmargin/cashg.onrender.com): its separate Spring Boot/Thymeleaf evolution.
+- [Current portfolio](https://vmargin.github.io/): selected projects and contribution details.
 
 ---
 
-## 📫 Connect
-
-- **GitHub:** [@vmargin](https://github.com/vmargin)
-- **LinkedIn:** [vmargin](https://www.linkedin.com/in/vmargin/)
-
----
-
-_Last updated: July 2026_
+[More projects](https://github.com/vmargin) · [Portfolio](https://vmargin.github.io/) · [LinkedIn](https://www.linkedin.com/in/vmargin/)
